@@ -1,0 +1,100 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  background-color: #e5a65d;
+  min-height: "calc(100vh - 80px)";
+  gap: 40px;
+}
+
+.hero-texto {
+  max-width: 500px;
+}
+
+.subtitulo {
+  font-size: 0.85rem;
+  font-family: 'Arial Black', sans-serif;
+  font-weight: 800;
+  color: #7d2e1b;
+  letter-spacing: 1.5px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.hero-texto h2 {
+  font-size: 3.8rem;
+  font-family: 'impact', 'arial black', 'trebuchet ms', sans-serif;
+  line-height: 1.05;
+  font-weight: 900;
+  color: #5c1e13; 
+  margin-bottom: 20px;
+}
+
+.hero-texto p {
+  font-size: 1.05rem;
+  font-family: 'system-ui', -apple-system, sans-serif;
+  color: #6b2f1f;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.btn-hero {
+  display: inline-block;
+  background-color: #7b2a1a;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-family: 'Arial Black', sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-hero:hover {
+  background-color: #5c1e13;
+  transform: translateY(-2px);
+}
+
+.hero-imagen-contenedor {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marco-circular {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid #ffffff; 
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.hamburguesa-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.badge-actitud {
+  position: absolute;
+  bottom: 20px;
+  right: -10px;
+  background-color: #5c1e13; 
+  color: #ffffff;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 900;
+  line-height: 1.2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: rotate(-10deg); 
+}
